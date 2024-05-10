@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça meu portfólio e descubra meus projetos e habilidades, desenvolvedor front end - habilidaes em JavaScript, react, typescript, html, css, Tailwindcss e Bootstrap.">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="/assets/profile.png" type="image/x-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lucas Gomes - desenvolvedor">
+    <meta property="og:image" content="https://zaion1997.vercel.app/assets/profile.png">
+    <meta property="og:description" content="Portfólio pessoal - veja as minhas habilidades">
+    <meta property="og:site_name" content="Lucas Gomes">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="styles/output.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script defer type="module" src="./main.js"></script>
+    
+    <title>Lucas Gomes - Desenvolvedor</title>
+</head>
+<body>
+    <header class="max-w-7xl m-auto"> 
+        <button id="scrollTopButton" class="scrollTop" aria-label="Ir para o topo da página">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+       <nav class="nav w-full flex justify-between items-center flex-row lg:my-7 my-5 px-5">
+            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text mb-0">LG</h1>
+            <div>
+                <ul class="js-menu nav-list flex items-center gap-5 text-gray-800">
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#sobre">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#experiencia">Trabalhos</a>
+                    </li>
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="mobile-menu lg:hidden lg:remove md:hidden md:remove flex">
+                <button class="hamburguer"></button>
+            </div>
+        </nav> 
+    </header>
+    <section class="max-w-7xl flex items-center m-auto">
+        <div class="w-full flex justify-center items-center lg:flex-row flex-col lg:gap-16 md:gap-16 gap-10 lg:pt-10 md:pt-10 pt-0 lg:min-h-[90vh] md:min-h-[70vh] min-h-[60vh]">
+            <div class="wow animate__animated animate__fadeInLeft">
+                <img class="lg:max-w-[450px] md:max-w-[400px] max-w-[250px] object-contain rounded-full" src="./assets/profile.png" alt="Foto de perfil">
+            </div>
+            <div class="wow animate__animated animate__fadeInRight flex justify-center lg:items-start items-center flex-col lg:gap-6 md:gap-8 gap-7 mx-3">
+                <h2 class="font-bold lg:text-start md:text-center text-center lg:text-7xl md:text-5xl text-4xl flex flex-col text-gray-800">
+                    <span>Desenvolvedor</span>
+                    <span class="bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Front End <i class="fas fa-code"></i></span>
+                </h2>
+                <p class="max-w-4xl lg:text-2xl md:text-2xl text-base lg:leading-10 md:leading-9 leading-7">
+                    Olá! Eu sou <strong>Lucas Gomes</strong> e estou aqui para <strong>impulsionar</strong> o seu <strong>negócio</strong>. Ofereço serviços de criação de <strong>landing pages</strong>, <strong>sites institucionais</strong> e <strong>lançamentos</strong>, todos totalmente responsivos. Deixe-me ajudar a levar o seu negócio para o próximo nível!
+                </p>
+                <button class="max-w-[500px] bg-gradient-to-b from-indigo-600 to-purple-900 py-4 px-4 rounded-md border border-transparent text-white lg:text-2xl md:text-2xl text-base font-bold">
+                    QUERO SOLICITAR ORÇAMENTO
+                </button>
+            </div>
+        </div>
+        <div class="absolute z-50 lg:bottom-20 md:bottom-[-40px] lg:flex hidden left-1/2 transform -translate-x-1/2 transition-transform hover:translate-y-1 animate-seta">
+            <i class="animate__animated animate__fadeIn fas fa-angle-down text-4xl text-purple-900"></i>
+        </div>        
+    </section>
+    <section class="max-w-7xl m-auto" id="sobre">
+        <div class="wow animate__animated animate__fadeIn flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-20 md:py-7 py-7 mx-3">
+            <h2 class="font-bold lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Serviços <i class="fas fa-code"></i></h2>
+
+            <h2 class="max-w-4xl text-center lg:text-4xl md:text-2xl text-base lg:leading-10 md:leading-9 leading-7">Um Site Bem Feito Muda o Rumo do Seu Negócio</h2>
+
+            <div class="max-w-4xl flex justify-center items-center flex-wrap">
+                
+                <div class="max-w-[400px] p-4">
+                  <div class="bg-white rounded-lg shadow-md p-6 h-[350px] flex justify-center items-center text-center flex-col">
+                    <i class="fas fa-globe-americas text-4xl mb-4"></i>
+                    <h2 class="text-2xl font-semibold mb-4">Sua Empresa Online</h2>
+                    <p class="text-gray-700 leading-7">Traga a sua empresa para o digital. Criamos sites, landing pages, páginas de vendas, blogs e lojas virtuais. Tenha um site moderno, bonito e de alta conversão.</p>
+                  </div>
+                </div>
+              
+                
+                <div class="max-w-[400px] p-4">
+                  <div class="bg-white rounded-lg shadow-md p-6 h-[350px] flex justify-center items-center text-center flex-col">
+                    <i class="fas fa-user-shield text-4xl mb-4"></i>
+                    <h2 class="text-2xl font-semibold mb-4">Selo de Segurança (SSL)</h2>
+                    <p class="text-gray-700 leading-7">Certificado SSL instalado para garantir mais segurança para você e para os seus cliente ao acessarem o site.</p>
+                  </div>
+                </div>
+              
+                
+                <div class="max-w-[400px] p-4">
+                  <div class="bg-white rounded-lg shadow-md p-6 h-[350px] flex justify-center items-center text-center flex-col">
+                    <i class="fas fa-mobile-alt text-4xl mb-4"></i>
+                    <h2 class="text-2xl font-semibold mb-4">Design Responsivo</h2>
+                    <p class="text-gray-700 leading-7">Seu site acessível em todos os dispositivos móveis. A maioria dos seus clientes estão navegando pelo celular e o seu site precisa estar preparado. Não perca mais vendas.</p>
+                  </div>
+                </div>
+              
+                
+                <div class="max-w-[400px] p-4">
+                  <div class="bg-white rounded-lg shadow-md p-6 h-[350px] flex justify-center items-center text-center flex-col">
+                    <i class="far fa-lightbulb text-4xl mb-4"></i>
+                    <h2 class="text-2xl font-semibold mb-4">Sites Otimizados</h2>
+                    <p class="text-gray-700 leading-7">Tenha um site que carrega rapidamente e aumente suas vendas e conversões de forma eficaz.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="max-w-7xl m-auto" id="experiencia">
+        <div class="w-full flex justify-center items-center lg:gap-15 gap-10 flex-col lg:py-10 py-5">
+            <h2 class="wow animate__animated animate__fadeInLeft text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:pb-5 pb-2">
+                Trabalhos <i class="fas fa-sitemap"></i></i>
+            </h2>
+            <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                    <img class="w-full rounded-lg" src="assets/imgProjects/linkDev.png" alt="imagem inicial do site">
+                </div>
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                    <h3 class="font-bold text-2xl uppercase">Linktree</h3>
+                    <ul class="flex justify-start flex-wrap gap-3">
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web">
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                            TailwindCss
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="React é uma biblioteca JavaScript utilizada para construir interfaces de usuário interativas e dinâmicas para aplicações web e móvei">
+                            React
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="TypeScript é uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript, facilitando o desenvolvimento de aplicativos robustos e escaláveis.">
+                            Typescript
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Firebase é uma plataforma para desenvolvimento de aplicativos, oferecendo serviços como armazenamento em nuvem, autenticação de usuários e banco de dados em tempo real.">
+                            Firebase
+                        </li>
+                    </ul>
+                    <p class="max-w-[600px] leading-7">
+                        O projeto Linktree com React é uma aplicação web que permite aos usuários centralizar todos os seus links importantes em uma única página personalizada. Inspirado pelo popular serviço Linktree, esta aplicação oferece uma solução flexível e personalizável para compartilhar links para perfis sociais, portfólios, lojas online e muito mais.
+                    </p>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://dev-liktree.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Site <i class="fas fa-file-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                    <img class="w-full rounded-lg" src="assets/imgProjects/PrimeFit.png" alt="imagem inicial do site">
+                </div>
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                    <h3 class="font-bold text-2xl uppercase">PrimeFit</h3>
+                    <ul class="flex justify-center flex-wrap gap-3">
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web" >
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="CSS é uma linguagem de estilo usada para estilizar o layout e a apresentação de páginas web HTML.">
+                            CSS
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Bootstrap é um framework front-end para criar interfaces web responsivas e atrativas.">
+                            Bootstrap
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                            Javascript
+                        </li>
+                    </ul>
+                    <p class="max-w-[600px] leading-7">
+                        Integrando uma API para o blog. Destaco a usabilidade aprimorada com manipulação eficiente do DOM e a modernização visual com FontAwesome. O código organizado e a otimização de imagens para WebP contribuem para um desempenho eficiente. Este projeto demonstra minha habilidade em criar websites interativos e visualmente atraentes. HTML, CSS, Bootstrap e JavaScript.
+                    </p>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://lucasgomesdacruz.github.io/Primefit/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Site <i class="fas fa-file-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                    <img class="w-full rounded-lg" src="assets/imgProjects/hamburgueria.png" alt="imagem inicial do site">
+                </div>
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                    <h3 class="font-bold text-2xl uppercase">Hamburgueria</h3>
+                    <ul class="flex justify-center flex-wrap gap-3">
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web">
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                            TailwindCss
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                            Javascript
+                        </li>
+                    </ul>
+                    <p class="max-w-[600px] leading-7">
+                        O Projeto Hamburgueria é uma aplicação web interativa que simula um cardápio online de uma hamburgueria, permitindo aos clientes visualizar os itens disponíveis, fazer pedidos e enviá-los diretamente para a hamburgueria via WhatsApp. Desenvolvido com HTML, Tailwind CSS e JavaScript, o projeto oferece uma experiência fluida e envolvente para os usuários.
+                    </p>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://hamburgueria-eta-blue.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Site <i class="fas fa-file-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                    <img class="w-full rounded-lg" src="assets/imgProjects/cardapio.png" alt="imagem inicial do site">
+                </div>
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-wrap flex-col gap-3">
+                    <h3 class="font-bold text-2xl uppercase">Cardápio online</h3>
+                    <ul class="flex justify-center gap-3">
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web">
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="CSS é uma linguagem de estilo usada para estilizar o layout e a apresentação de páginas web HTML.">
+                            CSS
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                            Bootstrap
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                            Javascript
+                        </li>
+                    </ul>
+                    <p class="max-w-[600px] leading-7">
+                        O Cardápio online é uma aplicação web interativa que simula um cardápio online de uma hamburgueria, permitindo aos clientes visualizar os itens disponíveis, integrando a API via CEP para localizar o endereço, fazer pedidos e enviá-los diretamente para a hamburgueria via WhatsApp. Desenvolvido com HTML, CSS, Bootstrap e JavaScript, o projeto oferece uma experiência fluida e envolvente para os usuários.
+                    </p>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://lucasgomesdacruz.github.io/cardapioOnline/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Site <i class="fas fa-file-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wow animate__animated animate__fadeIn max-w-7xl m-auto" id="contato">
+        <div class="max-w-[90%] lg:text-start md:text-start text-center flex justify-center items-center gap-3 flex-col lg:pt-10 pt-7 lg:pb-20 md:pb-10 pb-7 mx-auto">
+            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                Contato <i class="far fa-paper-plane"></i>
+            </h2>
+            <h3 class="lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Me mande uma mensagem!</h3>
+            <p class="lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Tem uma pergunta ou proposta, ou apenas quer dizer "olá"? Vá em frente.</p>
+        </div>
+        <div class="flex justify-center items-center">
+            <form action="https://formspree.io/f/mleqavgq" method="POST" id="contactForm" class="w-full max-w-[1000px] bg-gray-100 p-2 rounded-lg">
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 mb-4">
+                    <div>
+                        <label for="nome" class="block text-gray-800 font-bold mb-2">Seu nome:</label>
+                        <input type="text" id="nome" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required>
+                        <span class="erro"></span>
+                    </div>
+                    <div>
+                        <label for="endereco" class="block text-gray-800 font-bold mb-2">Endereço de E-mail:</label>
+                        <input type="email" id="endereco" name="endereco" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required>
+                        <span class="erro"></span>
+                    </div>
+                </div>
+                <div>
+                    <label for="mensagem" class="block text-gray-800 font-bold mb-2">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required></textarea>
+                </div>
+                <div class="flex justify-center mt-5">
+                    <button 
+                        aria-label="Enviar E-mail para Lucas"
+                        type="submit" class="w-[200px] bg-blue-700 hover:bg-blue-500  text-white font-bold py-2 px-4 rounded focus:outline-none transition-all">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="wow animate__animated animate__fadeIn  max-w-7xl m-auto">
+        <div class="w-full flex justify-center items-center flex-wrap-reverse gap-5 pt-10 pb-10">
+            <p class="w-full text-center font-bold lg:text-xl md:text-xl text-sm text-gray-500">
+                © 2024 - Design and Code by Lucas gomes.
+            </p>
+            <div class="flex justify-center items-center lg:flex-row md:flex-row flex-col font-medium gap-5">
+                <a class="hover:text-purple-900 transition-all duration-300 ease-in-out lg:text-xl text-2xl" href="https://wa.me/5521992117045" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensagem para WhatsApp">
+                    WhatsApp <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="hover:text-purple-900 transition-all duration-300 ease-in-out lg:text-xl text-2xl" href="mailto:lucaass1997@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar E-mail para Lucas" >
+                    E-mail <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
