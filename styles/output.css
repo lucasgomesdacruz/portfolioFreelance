@@ -861,10 +861,6 @@ video {
   display: none;
 }
 
-.h-\[250px\] {
-  height: 250px;
-}
-
 .h-\[350px\] {
   height: 350px;
 }
@@ -2132,11 +2128,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2351,8 +2342,16 @@ video {
   line-height: 1.75rem;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -3220,10 +3219,6 @@ body {
 
   .lg\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .lg\:gap-20 {
-    gap: 5rem;
   }
 
   .lg\:py-10 {
